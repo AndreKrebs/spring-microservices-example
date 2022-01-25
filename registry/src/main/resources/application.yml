@@ -1,0 +1,16 @@
+server:
+    port: 8761
+
+spring:
+    application:
+        name: registry
+
+eureka:
+    client:
+        registerWithEureka: true
+        fetchRegistry: false
+
+#  server:
+#  enable-self-preservation: false
+#  evictionIntervalTimerInMs: 3000
+#  response-cache-update-interval-ms: 3000
